@@ -1,0 +1,16 @@
+PODS:
+  - XReusable (0.1.0)
+
+DEPENDENCIES:
+  - XReusable (from `../`)
+
+EXTERNAL SOURCES:
+  XReusable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XReusable: 6bdc761603ae1ddcd0a4024aa233d83b95c24372
+
+PODFILE CHECKSUM: f333eb64829ac7fc3ff40cb828c2456d354db39b
+
+COCOAPODS: 1.11.2

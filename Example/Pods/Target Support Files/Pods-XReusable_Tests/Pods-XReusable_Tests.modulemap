@@ -1,0 +1,6 @@
+framework module Pods_XReusable_Tests {
+  umbrella header "Pods-XReusable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

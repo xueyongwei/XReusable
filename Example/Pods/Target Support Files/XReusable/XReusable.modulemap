@@ -1,0 +1,6 @@
+framework module XReusable {
+  umbrella header "XReusable-umbrella.h"
+
+  export *
+  module * { export * }
+}
