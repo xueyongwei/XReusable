@@ -14,10 +14,10 @@ view.xr.register(cell: PopListCell.self)
 ```
 · 通过如下方式复用cell：
 ```
-let cell: PopListCell = tableView.ws.dequeueReusableCell(for: indexPath)
+let cell: PopListCell = tableView.xr.dequeueReusableCell(for: indexPath)
 return cell
 ```
-        
+CollectionVeiw同理。
 
 ## Installation
 
