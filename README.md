@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/XReusable.svg?style=flat)](https://cocoapods.org/pods/XReusable)
 [![Platform](https://img.shields.io/cocoapods/p/XReusable.svg?style=flat)](https://cocoapods.org/pods/XReusable)
 
-## Example
+用在TableView和CollectionView中的语法糖,不是什么奇淫巧技。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+· 通过如下方式注册cell：
+```
+let view = UITableView.init(frame: CGRect.zero, style: .plain)
+view.xr.register(cell: PopListCell.self)
+```
+· 通过如下方式复用cell：
+```
+let cell: PopListCell = tableView.ws.dequeueReusableCell(for: indexPath)
+return cell
+```
+        
 
 ## Installation
 
